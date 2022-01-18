@@ -4,3 +4,19 @@
 *{
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+.heading {
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 30px;
+    color: #0d0d0d;
+    text-align: center;
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
