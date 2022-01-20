@@ -14,11 +14,19 @@
     font-size: 30px;
     color: #0d0d0d;
     text-align: center;
+    text-transform: uppercase;
+    &_left {
+        font-size: 36px;
+        color: #fff;
+        text-align: left;
+    }
 }
 
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
+@import 'blocks/consultation';
+@import 'blocks/forms';
 
 @import 'base/media';
