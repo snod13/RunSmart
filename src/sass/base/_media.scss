@@ -170,6 +170,15 @@
             text-align: center;
         }
     }
+    .catalog {
+        padding-bottom: 30px;
+    }
+    .review {
+        &__heading {
+            margin-bottom: 25px;
+        }
+        padding-bottom: 30px;
+    }
 }
 @media (max-width: 425px) {
     .container {
