@@ -184,6 +184,17 @@
             width: 100%;
         }
     }
+
+    .modal {
+        width: 350px;
+        min-height: 370px;
+        padding: 20px 15px;
+        &__close {
+            font-size: 30px;
+            line-height: 15px;
+            right: -20px;
+        }
+    }
 }
 @media (max-width: 425px) {
     .container {
@@ -260,6 +271,16 @@
             img {
                 height: 20px;
             }
+        }
+    }
+    .modal {
+        width: 90%;
+        &__close {
+            right: 0;
+            top: -30px;
+        }
+        &__form {
+            width: 100%;
         }
     }
 }
