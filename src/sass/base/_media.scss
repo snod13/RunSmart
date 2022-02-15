@@ -179,6 +179,11 @@
         }
         padding-bottom: 30px;
     }
+    .footer {
+        &__info {
+            width: 100%;
+        }
+    }
 }
 @media (max-width: 425px) {
     .container {
@@ -232,6 +237,29 @@
         }
         &__descr {
             font-size: 12px;
+        }
+    }
+
+    .footer {
+        &__info {
+            height: 200px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        &__addr {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        &__phone {
+            font-size: 14px;
+            margin-bottom: 20px;   
+        }
+        &__social-item {
+            width: 30px;
+            height: 30px;
+            img {
+                height: 20px;
+            }
         }
     }
 }
